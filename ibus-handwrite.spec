@@ -1,6 +1,6 @@
 Name: ibus-handwrite
 Version: 2.1.4
-Release: 1
+Release: 2
 Summary: Hand write recognition/input using ibus IM engine
 License: GPLv2+
 Group: System/Internationalization
@@ -27,7 +27,7 @@ ibus-handwrite Chinese engine.
 Summary: ibus-handwrite Japanese engine
 Group: System/Internationalization
 Requires: %{name} = %{version}
-Requires: zinnia-tomoe
+Requires: zinnia-tomoe-ja
 Requires(post,preun): GConf2
 
 %description ja
