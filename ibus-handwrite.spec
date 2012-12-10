@@ -1,6 +1,6 @@
 Name: ibus-handwrite
 Version: 2.1.4
-Release: 2
+Release: 3
 Summary: Hand write recognition/input using ibus IM engine
 License: GPLv2+
 Group: System/Internationalization
@@ -37,6 +37,7 @@ ibus-handwrite Japanese engine.
 %setup -q
 
 %build
+export LDFLAGS="-lm"
 %configure2_5x --enable-zinnia --with-zinnia-tomoe=%{_datadir}/zinnia/model/tomoe/
 %make
 
@@ -73,3 +74,15 @@ ibus-handwrite Japanese engine.
 %files ja
 %defattr(-,root,root,-)
 %{_datadir}/ibus/component/handwrite-jp.xml
+
+
+%changelog
+* Sat May 14 2011 Funda Wang <fwang@mandriva.org> 2.1.4-2
++ Revision: 674641
+- update req
+
+* Sat May 14 2011 Funda Wang <fwang@mandriva.org> 2.1.4-1
++ Revision: 674588
+- update group
+- import ibus-handwrite
+
