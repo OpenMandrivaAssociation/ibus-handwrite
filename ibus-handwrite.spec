@@ -1,7 +1,7 @@
 Summary:	Hand write recognition/input using ibus IM engine
 Name:		ibus-handwrite
 Version:	2.1.4
-Release:	4
+Release:	5
 License:	GPLv2+
 Group:		System/Internationalization
 Url:		http://code.google.com/p/ibus-handwrite/
