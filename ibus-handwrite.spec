@@ -4,7 +4,7 @@ Version:	2.1.4
 Release:	5
 License:	GPLv2+
 Group:		System/Internationalization
-Url:		http://code.google.com/p/ibus-handwrite/
+Url:		https://code.google.com/p/ibus-handwrite/
 Source0:	http://ibus-handwrite.googlecode.com/files/%{name}-%{version}.tar.bz2
 BuildRequires:	pkgconfig(gdkglext-1.0)
 BuildRequires:	pkgconfig(ibus-1.0)
