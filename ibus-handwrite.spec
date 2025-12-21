@@ -6,6 +6,11 @@ License:	GPLv2+
 Group:		System/Internationalization
 Url:		https://code.google.com/p/ibus-handwrite/
 Source0:	http://ibus-handwrite.googlecode.com/files/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(gdkglext-1.0)
 BuildRequires:	pkgconfig(ibus-1.0)
 BuildRequires:	pkgconfig(zinnia)
